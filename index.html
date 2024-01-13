@@ -3,16 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portifólio</title>
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Olá, sou a Sophia</h1>
-        <p>Seja bem vindo ao meu Site/Portifólio. Estou estudando para entrar no mundo DEV, em busca do meu primeiro emprego na área. Vamos conversar?</p>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Olá,</strong> sou a Sophia</h1>
+            <p class="apresentacao__conteudo__paragrafo"><strong>Seja bem vindo ao meu Site/Portifólio</strong>. Estou estudando para entrar no mundo DEV, em busca do meu primeiro emprego na área. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/sohsales/">
+                    <img src="./assets/linkedin.png" alt="Linkedin logo">
+                    Linkedin</a>
+                <a class="apresentacao__links__link" href="https://github.com/SohSales">
+                    <img src="./assets/github.png">
+                    GitHub</a>
+            
+            </div>
+        </section>
+        <img src="./assets/foto principal.png" alt="foto principal">
     </main>
-    <footer>
-        
+    <footer class="rodape">
+        <p>Desenvolvido por Sophia</p>
     </footer>
 </body>
 </html>
